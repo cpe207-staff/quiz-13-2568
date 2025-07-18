@@ -1,15 +1,20 @@
 {
   "name": "quiz-01",
-  "version": "1.0.0",
+  "version": "1.18.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "devDependencies": {
-    "@babel/core": "*",
-    "@babel/preset-env": "*",
-    "@types/jest": "^29.5.12",
-    "@types/node": "^20.14.10",
-    "babel-jest": "*",
-    "ts-jest": "^29.2.0"
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^30.0.4",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.14",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
   },
   "scripts": {
     "test": "jest"
@@ -18,7 +23,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "axios": "^1.10.0"
   }
 }

@@ -1,25 +1,7 @@
 /* define interface for Hero and Item objects */
-interface Item {
-  item: string;
-  price: number;
-}
-
-interface Hero {
-  items: string[];
-  gold: number;
-}
 
 /* assign interface/type to the function definition properly */
-const q5 = (hero: Hero, shopItems: Item[]): Hero => {
-  //your code here
-  for (let item of shopItems) {
-    if (hero.gold >= item.price) {
-      hero.gold -= item.price;
-      hero.items.push(item.item);
-    } else break;
-  }
-  return hero;
-};
+const q5 = (hero, shopItems) => {};
 
 const hero1 = {
   items: ["sword", "potion"],

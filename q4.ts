@@ -1,7 +1,10 @@
 /* define interface for Mafia objects */
+/* Your code here */
 
 /* assign interface/type to the function definition properly */
-const q4 = (mafias, fights) => {};
+const q4 = (mafias, fights) => {
+  /* Your code here */
+};
 
 //Test case
 const mafias = [

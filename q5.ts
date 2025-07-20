@@ -1,7 +1,10 @@
 /* define interface for Hero and Item objects */
+/* Your code here */
 
 /* assign interface/type to the function definition properly */
-const q5 = (hero, shopItems) => {};
+const q5 = (hero, shopItems) => {
+  /* Your code here */
+};
 
 const hero1 = {
   items: ["sword", "potion"],
